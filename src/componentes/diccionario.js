@@ -1,0 +1,47 @@
+const dictionaries = {
+    en: {
+      title: 'Discover a Random Pokémon!',
+      buttonChange: 'Change Pokémon',
+      buttonDetails: 'View Details',
+      buttonClose: 'Close Details',
+      generationTitle: 'Generation',
+      buttonMoreInfo: 'Learn More',
+      buttonCloseModal: 'Close',
+      pokemonHeight: 'Height',
+      pokemonWeight: 'Weight',
+      pokemonTypes: 'Types',
+      pokemonAbilities: 'Abilities',
+      baseStats: 'Base Stats',
+    },
+    es: {
+      title: '¡Descubre un Pokémon Aleatorio!',
+      buttonChange: 'Cambiar Pokémon',
+      buttonDetails: 'Ver Detalles',
+      buttonClose: 'Cerrar Detalles',
+      generationTitle: 'Generación',
+      buttonMoreInfo: 'Saber Más',
+      buttonCloseModal: 'Cerrar',
+      pokemonHeight: 'Altura',
+      pokemonWeight: 'Peso',
+      pokemonTypes: 'Tipos',
+      pokemonAbilities: 'Habilidades',
+      baseStats: 'Estadísticas Base',
+    },
+    de: {
+      title: 'Entdecke ein zufälliges Pokémon!',
+      buttonChange: 'Pokémon wechseln',
+      buttonDetails: 'Details anzeigen',
+      buttonClose: 'Details schließen',
+      generationTitle: 'Generation',
+      buttonMoreInfo: 'Mehr erfahren',
+      buttonCloseModal: 'Schließen',
+      pokemonHeight: 'Höhe',
+      pokemonWeight: 'Gewicht',
+      pokemonTypes: 'Typen',
+      pokemonAbilities: 'Fähigkeiten',
+      baseStats: 'Basiswerte',
+    },
+  };
+  
+  export const getDictionary = (lang) => dictionaries[lang];
+  
