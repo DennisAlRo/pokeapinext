@@ -30,6 +30,11 @@ export default function NavBar() {
                 <span style={{ cursor: 'pointer' }}>Generación 3</span>
               </Link>
             </NavDropdown.Item>
+            <NavDropdown.Item as="div">
+              <Link href="/generacion/4">
+                <span style={{ cursor: 'pointer' }}>Generación 4</span>
+              </Link>
+            </NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
